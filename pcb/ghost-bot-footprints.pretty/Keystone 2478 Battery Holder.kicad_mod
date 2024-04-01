@@ -1,0 +1,155 @@
+(footprint "Keystone 2478 Battery Holder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc6681ba-f5aa-4727-ac92-262ea95225c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Keystone 2478 Battery Holder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04506b32-bed6-4d52-bc8e-81316392df42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaccc769-dc58-46e7-89cf-a36cef694a39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7701ae87-bd23-49c5-9a96-543a922b2c13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2a97d48-9f9c-42b7-878d-37a39d016310")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.7 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "30ea9dab-6b20-49fb-8c28-231cbe9e2031")
+	)
+	(fp_circle
+		(center 57.4 0)
+		(end 60.1 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "ee394f50-1ea8-4a51-a8c8-5035a1086555")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5fc90509-84c4-437f-898b-a69b94ff61df")
+	)
+	(fp_circle
+		(center 57.4 0)
+		(end 60.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "dbf436c9-e082-4e95-9444-160f1a51919f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa4c8ba2-74b0-479f-8109-bd9a5f5bd310")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3975f007-f8ee-4ea4-8d99-2454c48b4fab")
+	)
+	(pad "" np_thru_hole circle
+		(at 57.4 0)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "15eadb57-fd4c-4441-b180-4fba4a15cead")
+	)
+	(group ""
+		(uuid "ef4f0bc7-3c35-4d9c-8b12-728f810bf346")
+		(members "04506b32-bed6-4d52-bc8e-81316392df42" "30ea9dab-6b20-49fb-8c28-231cbe9e2031"
+			"3975f007-f8ee-4ea4-8d99-2454c48b4fab" "5fc90509-84c4-437f-898b-a69b94ff61df"
+			"7701ae87-bd23-49c5-9a96-543a922b2c13" "aaccc769-dc58-46e7-89cf-a36cef694a39"
+			"cbf6a846-1ca5-49dd-b210-0e4b3198ef29" "dc6681ba-f5aa-4727-ac92-262ea95225c0"
+			"e2a97d48-9f9c-42b7-878d-37a39d016310" "fa4c8ba2-74b0-479f-8109-bd9a5f5bd310"
+		)
+	)
+	(group ""
+		(uuid "cbf6a846-1ca5-49dd-b210-0e4b3198ef29")
+		(members "15eadb57-fd4c-4441-b180-4fba4a15cead" "dbf436c9-e082-4e95-9444-160f1a51919f"
+			"ee394f50-1ea8-4a51-a8c8-5035a1086555"
+		)
+	)
+)
