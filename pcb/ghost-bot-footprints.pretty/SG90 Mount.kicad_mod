@@ -1,0 +1,146 @@
+(footprint "SG90 Mount"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "981360f6-7c17-444c-8410-db9f52d9187c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SG90 Mount"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d8e085d2-3901-4944-8c77-4b7fd13634e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5cf04c4-2c4e-4ff8-afe9-2d66b127a90b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39261364-595c-4bcf-9d76-fc368da13941")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb38a350-9c2f-4b35-af30-77d77ebb0704")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 22.5 22.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "38445bd0-aab6-41e6-ac4d-1b49e3f0a0c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7508b1b-6e41-41b4-95a7-9f876e153b99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -2.5 11.25)
+		(size 2.5 5)
+		(drill oval 2.5 5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cc46201d-2302-4449-adac-ecf6108c9a23")
+	)
+	(pad "" np_thru_hole oval
+		(at 25 11.25)
+		(size 2.5 5)
+		(drill oval 2.5 5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a06895dd-f077-41b9-8a6e-6889357745a6")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "dce4fe7e-bd5a-4711-bd40-331c07094c13")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4 0) (xy 26.5 0) (xy 26.5 22.5) (xy -4 22.5)
+			)
+		)
+	)
+	(model "C:/CAD/sg90-micro-servo-9g-tower-pro-1.snapshot.3/SG90 - Micro Servo 9g - Tower Pro.STEP"
+		(offset
+			(xyz 4.5 -28.5 -21.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
