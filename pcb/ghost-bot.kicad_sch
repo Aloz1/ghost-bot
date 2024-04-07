@@ -7734,7 +7734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
+		(property "Footprint" "ghost-bot-footprints:SW_E-Switch_EG1271_SPDT"
 			(at 153.67 59.69 0)
 			(effects
 				(font
