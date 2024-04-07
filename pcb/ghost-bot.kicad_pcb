@@ -41,7 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 165.11 126.16)
+		(grid_origin 131.185 117.81)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -2255,7 +2255,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J4"
-			(at 2.54 1.275 180)
+			(at 0.067143 -2.105001 180)
 			(layer "F.SilkS")
 			(uuid "e47bbd7c-a5f4-4c3b-9f96-f74f2910bf20")
 			(effects
@@ -3564,7 +3564,7 @@
 		(descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW1"
-			(at 3.25 2 180)
+			(at 3.345003 7.075 180)
 			(layer "F.SilkS")
 			(uuid "c32a9a34-1d5a-4519-bc48-daf105aaf5d8")
 			(effects
@@ -5156,7 +5156,7 @@
 		(descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW2"
-			(at 3.25 2.25 360)
+			(at 3.25 -2.395 360)
 			(layer "F.SilkS")
 			(uuid "1106e2cf-34d1-479c-9aac-a8277b0238cf")
 			(effects
@@ -9966,6 +9966,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 115.685 120.06)
+		(end 148.185 128.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "d96891b8-9415-40ad-a6c8-8364bb377d0d")
+	)
 	(gr_line
 		(start 182.500003 144)
 		(end 107.500003 144)
@@ -10081,6 +10092,78 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f17c9802-c5b1-4e43-ad01-178bfbd8041e")
+	)
+	(gr_text "GHOST-BOT\nV0.1 0424 CK"
+		(at 148.185 107.81 0)
+		(layer "B.SilkS" knockout)
+		(uuid "3181e19f-4e8b-4dd1-ae7b-9a0314ade449")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "        \n        "
+		(at 140.11 141.66 0)
+		(layer "B.SilkS" knockout)
+		(uuid "7bc62201-85d9-4958-93d8-c37cff728769")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "OFF"
+		(at 151.11 141.16 0)
+		(layer "F.SilkS")
+		(uuid "136c8da8-5913-453b-8e99-9fb1af5b7760")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ON"
+		(at 163.61 141.16 0)
+		(layer "F.SilkS")
+		(uuid "40d808ac-fcb5-4fa9-bb65-a9e112d6f388")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 148.11 133.16 0)
+		(layer "F.SilkS")
+		(uuid "48a8deec-9fad-4947-8c84-a5388f468194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 148.11 135.66 0)
+		(layer "F.SilkS")
+		(uuid "a91f534c-0d9f-4794-b5b6-fcf42b0c2598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 186.500003 98.765)
@@ -14616,12 +14699,6 @@
 				(xy 107.050964 84.519071) (xy 107.49744 84.500605) (xy 107.502564 84.5005) (xy 107.565895 84.5005)
 				(xy 182.434111 84.5005) (xy 182.498888 84.5005)
 			)
-		)
-	)
-	(group ""
-		(uuid "5836bf1d-18ce-46f0-9fde-ce8167819270")
-		(members "04ff03a6-6a82-412c-b951-cb5a4e1fd252" "235906f6-29fc-4983-abad-0b41bc71924c"
-			"b5c01504-4c51-43e4-9161-fa676d6fda77"
 		)
 	)
 	(group ""
