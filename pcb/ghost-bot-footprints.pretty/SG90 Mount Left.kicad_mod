@@ -1,4 +1,4 @@
-(footprint "SG90 Mount"
+(footprint "SG90 Mount Left"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SG90 Mount"
+	(property "Value" "SG90 Mount Left"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -152,4 +152,15 @@
 			"ee394f50-1ea8-4a51-a8c8-5035a1086555"
 		)
 	)
+	(model "C:/CAD/2478CN/2478 with standoffs.step"
+		(offset
+			(xyz 28 0.5 27.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

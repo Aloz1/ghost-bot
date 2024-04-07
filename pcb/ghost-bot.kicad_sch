@@ -6738,7 +6738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ghost-bot-footprints:SG90 Mount"
+		(property "Footprint" "ghost-bot-footprints:SG90 Mount Right"
 			(at 210.82 151.13 0)
 			(effects
 				(font
@@ -7065,7 +7065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ghost-bot-footprints:SG90 Mount"
+		(property "Footprint" "ghost-bot-footprints:SG90 Mount Left"
 			(at 200.66 151.13 0)
 			(effects
 				(font
