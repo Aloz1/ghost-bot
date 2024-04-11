@@ -11,7 +11,7 @@ I like building things and I like hanging out with the Ghost Bat crew. Adam has 
     * No specialized equipment
 * Low cost
     * "The best part is no part"
-    * Build it, break it, build another one
+    * Build it, break it, repair it, build another one
 * Able to be completed in a weekend
     * No Gantt chart required
     * Easier to herd the cats 
