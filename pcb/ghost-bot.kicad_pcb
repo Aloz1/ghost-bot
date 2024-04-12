@@ -1158,7 +1158,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.33 -90)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "8b259720-991f-4194-8592-ea00b151f739")
 			(effects
@@ -4243,7 +4243,7 @@
 		(uuid "3ede7a3d-430d-4d8b-a82e-036ef5bfcab6")
 		(at 120 84.25)
 		(property "Reference" "U1"
-			(at 0 -0.5 0)
+			(at -1.322857 1.534999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d2f62e84-1c91-47f1-b775-194637cc1b7b")
@@ -4937,7 +4937,7 @@
 		(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
 		(tags "rgb led")
 		(property "Reference" "D1"
-			(at 2.413 -3.198 0)
+			(at 5.07714 -2.455001 0)
 			(layer "F.SilkS")
 			(uuid "490be728-db0d-4a03-ab6b-642196654992")
 			(effects
@@ -6769,7 +6769,7 @@
 		(uuid "9002eaba-9f43-42ab-9d88-50546db0d6a5")
 		(at 120 121.25)
 		(property "Reference" "U2"
-			(at 0 -0.5 0)
+			(at -1.822857 1.534999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "30d95166-5ef0-4ea8-bc54-7419ae49eceb")
@@ -6920,7 +6920,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 -90)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "07c38f97-8eb1-4560-924c-417bc081022b")
 			(effects
@@ -7979,7 +7979,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.33 -90)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "781ce603-62ef-4b55-9dfa-ec4777ba1b3f")
 			(effects
@@ -10078,19 +10078,19 @@
 		)
 	)
 	(gr_text "OFF"
-		(at 159.677143 142.784999 0)
+		(at 160.677143 141.784999 0)
 		(layer "F.SilkS")
 		(uuid "136c8da8-5913-453b-8e99-9fb1af5b7760")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.2)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "ON"
-		(at 167.177143 141.784999 0)
+		(at 166.177143 141.784999 0)
 		(layer "F.SilkS")
 		(uuid "40d808ac-fcb5-4fa9-bb65-a9e112d6f388")
 		(effects
@@ -10113,10 +10113,94 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SIG"
+		(at 127.177143 120.784999 0)
+		(layer "F.SilkS")
+		(uuid "4c323ebd-964b-4e5f-b822-a9b3b8893c8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T"
+		(at 130.677143 108.284999 0)
+		(layer "F.SilkS")
+		(uuid "6862de67-a677-4fd2-9e75-0f64543dd44c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 135.677143 108.284999 0)
+		(layer "F.SilkS")
+		(uuid "70de9677-aa08-417c-8d95-8c22da0afdf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 133.177143 120.784999 0)
+		(layer "F.SilkS")
+		(uuid "7426b684-85a3-4aa1-9ebc-8e2d06a8064b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 130.677143 120.784999 0)
+		(layer "F.SilkS")
+		(uuid "82a005cd-2957-425c-b676-6ae862fd3f74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+"
 		(at 156.177143 133.784999 0)
 		(layer "F.SilkS")
 		(uuid "a91f534c-0d9f-4794-b5b6-fcf42b0c2598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 128.177143 108.284999 0)
+		(layer "F.SilkS")
+		(uuid "ad1acb26-d711-4c83-9dc5-15e3afc3e128")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "E"
+		(at 133.177143 108.284999 0)
+		(layer "F.SilkS")
+		(uuid "cf7c1bd7-5eeb-4c3b-aa91-9c3e8d820d01")
 		(effects
 			(font
 				(size 1 1)
