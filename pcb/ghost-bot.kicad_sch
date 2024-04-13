@@ -4504,6 +4504,25 @@
 		)
 		(uuid "fffe0c12-75e8-42fb-a3d0-d83c083c9a5f")
 	)
+	(text_box "Note that R7 and R8 should be 85R"
+		(exclude_from_sim no)
+		(at 90.17 146.05 0)
+		(size 20.32 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "03ee1aa8-0f3c-4c48-b706-785e13fb6653")
+	)
 	(text "Mechanical parts"
 		(exclude_from_sim no)
 		(at 197.866 146.558 0)
@@ -4736,6 +4755,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "1825910-6"
+			(at 43.18 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 43.18 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "2456210"
+			(at 43.18 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a7cc5264-66ab-4903-9fda-bcb9625a61fc")
 		)
@@ -4798,6 +4844,33 @@
 		)
 		(property "Description" "Photodiode"
 			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SFH203-FA"
+			(at 210.82 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 210.82 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1212743"
+			(at 210.82 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,6 +5078,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "SFH203-FA"
+			(at 247.65 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 247.65 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1212743"
+			(at 247.65 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9920609-8de4-4b45-9793-fc94640a6f45")
 		)
@@ -5138,6 +5238,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "2211S-03G"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" " 1593412"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "caf07e08-1e00-415f-bb65-49548635defc")
 		)
@@ -5173,7 +5300,7 @@
 				)
 			)
 		)
-		(property "Value" "85R"
+		(property "Value" "100R"
 			(at 87.63 140.97 90)
 			(effects
 				(font
@@ -5201,6 +5328,33 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 87.63 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 87.63 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 87.63 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,6 +5423,33 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2478"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1650685"
 			(at 195.58 152.4 0)
 			(effects
 				(font
@@ -5397,6 +5578,33 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 330R"
+			(at 71.12 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 71.12 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339418"
+			(at 71.12 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,6 +5744,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" " MCL053GD"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1581138"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f22a4d70-9bd3-41c4-9b75-16abe2c2fcf8")
 		)
@@ -5595,6 +5830,33 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100K"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339078"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -5670,6 +5932,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "OFL-5102"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1716710"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2d38c60-cf44-4b59-90d6-3b15cfed2adf")
 		)
@@ -5729,6 +6018,33 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100K"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339078"
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -5864,6 +6180,33 @@
 			)
 		)
 		(property "Description" "Arduino Nano v3.x"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "A000005"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1848691"
 			(at 148.59 96.52 0)
 			(effects
 				(font
@@ -6023,6 +6366,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 217.17 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 217.17 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 217.17 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "950beafa-9a61-46c5-a608-a4b169ec6c1a")
 		)
@@ -6156,6 +6526,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 150R"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339175"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11ac6c29-e21e-4bbd-aae3-cdb8cc502858")
 		)
@@ -6281,6 +6678,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2211S-04G"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1593413"
 			(at 71.12 158.75 0)
 			(effects
 				(font
@@ -6428,6 +6852,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "OFL-5102"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1716710"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4800a77-b0a0-4212-800a-41db4f92df33")
 		)
@@ -6460,7 +6911,7 @@
 				)
 			)
 		)
-		(property "Value" "85R"
+		(property "Value" "100R"
 			(at 87.63 132.08 90)
 			(effects
 				(font
@@ -6488,6 +6939,33 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 87.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 87.63 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 87.63 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 87.63 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,6 +7040,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" " MCL053GD"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1581138"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "626e58eb-992a-4cac-a63d-f23356f0e830")
 		)
@@ -6624,6 +7129,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "NA"
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "NA"
 			(at 134.62 49.53 0)
 			(effects
 				(font
@@ -6766,6 +7298,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MP-708-0002"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3359812"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ghost-bot"
 				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
@@ -6820,6 +7379,33 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 330R"
+			(at 71.12 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 71.12 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339418"
+			(at 71.12 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,6 +7537,33 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " MCL053GD"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1581138"
 			(at 81.28 57.15 0)
 			(effects
 				(font
@@ -7093,6 +7706,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MP-708-0002"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3359812"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ghost-bot"
 				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
@@ -7147,6 +7787,33 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 330R"
+			(at 71.12 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 71.12 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339418"
+			(at 71.12 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,6 +8155,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "1825910-6"
+			(at 43.18 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 43.18 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "2456210"
+			(at 43.18 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89a29542-9df5-4cc0-b8fc-cdd190c00c44")
 		)
@@ -7556,16 +8250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part Number" " L-154A4SURKQBDZGW"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Element 14"
+		(property "Manufacturer Part Number" " L-154A4SURKQBDZGW"
 			(at 76.2 134.62 0)
 			(effects
 				(font
@@ -7575,6 +8260,15 @@
 			)
 		)
 		(property "Supplier Part Number" " 2290374"
+			(at 76.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
 			(at 76.2 134.62 0)
 			(effects
 				(font
@@ -7789,6 +8483,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "EG1271"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "4050998"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "daa87ef1-fa32-4ac0-a3b8-69af8dab4dd1")
 		)
@@ -7868,6 +8589,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 217.17 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 217.17 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 217.17 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5be93667-bcb7-4b67-8e1c-0dfe5561c56a")
 		)
@@ -7928,6 +8676,33 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 217.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 217.17 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 217.17 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 217.17 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,6 +8909,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 10K"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339060"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11bcccce-366e-4cc0-b9f3-c53eaae110a0")
 		)
@@ -8332,6 +9134,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "OFL-5102"
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1716710"
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "52eef2d0-ff5e-4d2f-9257-9b23a5573192")
 		)
@@ -8400,6 +9229,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 10K"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339060"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5435cf8-4c6a-48db-abfc-d24aefdbbed3")
 		)
@@ -8459,6 +9315,33 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100K"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "9339078"
 			(at 247.65 102.87 0)
 			(effects
 				(font
@@ -8593,6 +9476,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2211S-03G"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" " 1593412"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -9188,6 +10098,33 @@
 		)
 		(property "Description" "Photodiode"
 			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SFH203-FA"
+			(at 228.6 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 228.6 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1212743"
+			(at 228.6 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
