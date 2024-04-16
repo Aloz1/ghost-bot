@@ -18,3 +18,10 @@ I like building things and I like hanging out with the Ghost Bat crew. Adam has 
 
 ## Assembly
 * Don't touch the hot end of the soldering iron
+
+## We need you!
+We need volunteers to perform V&V and see if we:
+* Built the thing right
+* Built the right thing
+
+## How to order parts on Element 14
