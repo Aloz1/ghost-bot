@@ -25,3 +25,7 @@ We need volunteers to perform V&V and see if we:
 * Built the right thing
 
 ## How to order parts on Element 14
+TODO
+
+## TODO
+* Ordered M2.5 hex spacers (2884589) and screws (1420388, box of 100), need to add to BOM. It would be nice to add them as mechanical parts to the schematic, just need to think about what the best way to do this is.
