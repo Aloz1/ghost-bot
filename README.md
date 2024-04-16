@@ -18,6 +18,3 @@ I like building things and I like hanging out with the Ghost Bat crew. Adam has 
 
 ## Assembly
 * Don't touch the hot end of the soldering iron
-
-## Parts I dont want to forget
-* RGB LED - L-154A4SURKQBDZGW 
