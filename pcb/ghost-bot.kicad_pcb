@@ -193,6 +193,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "A000005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a946535-6b49-4329-925e-b30955062e0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28ef60c7-f444-458d-a0c8-1d28605fcf95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1848691"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5386338f-dc8e-4745-a3f8-64d484957a7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Arduino*Nano*")
 		(path "/40ade91e-1f55-4942-ad5f-55466c86f570")
 		(sheetname "Root")
@@ -948,6 +987,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "MF25 330R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "467dbd89-06bd-45d0-9f0b-1331fbcea11a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23af7882-1da4-4d94-8bdc-e92148148483")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9341730"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df1f3164-1670-4a93-b4d2-5e8a6ff33243")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/26853646-ac7b-4d2b-af77-5adc7c81cc9e")
 		(sheetname "Root")
@@ -1217,6 +1295,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "2211S-03G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d56b9414-d131-4712-99c5-316e02df1b31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe920ef4-b7f2-4198-9f7f-e40a1131c998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" " 1593412"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8151ffcf-a922-4d00-8766-deaeec7fa508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1492,6 +1609,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "EG1271"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e6093a8-ff28-4002-aa00-fef9636d11df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5c9f6b8-51c6-4a2c-b1b8-8d52128c9fba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "4050998"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe075792-fe06-4bff-82e1-08190be10a61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1949,6 +2105,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc7e9c79-368f-419c-afcd-638f4d441537")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "928459e1-ee5d-4bd6-8b29-9ef2ef8720fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84c5f96e-e109-4929-85c5-c53082466b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/afb0a494-c18f-4320-bf4b-c837c8c66949")
 		(sheetname "Root")
@@ -2218,6 +2413,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "997b50d3-692a-41d4-9d91-f5b378063614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "NA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b7c601d-8927-458b-a039-ced8b3357350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "NA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c84ea0a-e2e6-4983-82ec-8b002f2c6fa0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2634,6 +2868,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "MF25 330R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34eb8c57-acc5-42cf-9878-989e7d3b9718")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4dd8202-f8c1-4b96-80ae-17ffa6deee0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9341730"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ed4c8be-e7d8-4141-88fc-b9e3af1d1c72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8e4bfcae-eca9-42fa-bb90-f3cc57090bb1")
 		(sheetname "Root")
@@ -2906,6 +3179,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" " MCL053GD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5dcbd63-bfe7-4bf3-9931-669e34299135")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10434373-08ea-44ca-9830-f810f7a1f78e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1581138"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf3868ec-d440-4ec9-9a40-d043be145d6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/34282f93-c7f4-437e-b81e-3789997c0da1")
 		(sheetname "Root")
@@ -3132,6 +3444,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 150R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1914251e-c581-42e8-a633-6d035d132631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ac03f57-c18d-4a7b-9b3c-20e7fdc050b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339175"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a91f31c-b454-4a70-a2bb-59d02c9267f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3407,6 +3758,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "MF25 100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51076a84-3039-4464-872d-3b61a26b3090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f437bf8-de57-452e-9b2a-77b22e22de9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9341129"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "285406ce-ad24-4ffc-a752-bcda5b89fe42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/36f3c517-29b6-432d-98f5-c851a699b504")
 		(sheetname "Root")
@@ -3676,6 +4066,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1825910-6"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00fbf60c-7e75-4760-bcfe-3c91337c90ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e8adca3-6741-44e2-8362-23fa370a66b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "2456210"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f3ba127-db5d-47b0-852f-3d4275ce71bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4035,6 +4464,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7bfa953-d00f-4310-a236-6a3c506116b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "813ce4a3-03ea-4a30-a950-a4caa4ce2f4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "082223ab-c96d-4500-bed1-19ca3129d4c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ad410a07-1c30-4c37-848c-d68571097067")
 		(sheetname "Root")
@@ -4251,7 +4719,7 @@
 			(at -1.322857 1.534999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d2f62e84-1c91-47f1-b775-194637cc1b7b")
+			(uuid "fcceb879-f4e8-43ee-b2f8-b2970d5fa93b")
 			(effects
 				(font
 					(size 1 1)
@@ -4263,7 +4731,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7fe7a9ff-6866-40fc-a667-fb722b3bcfec")
+			(uuid "aefde225-796f-414e-8d95-8672b2c18405")
 			(effects
 				(font
 					(size 1 1)
@@ -4276,7 +4744,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9c5e895-d146-4ce4-83a0-15d280a90ece")
+			(uuid "a10d51ec-0017-4ec9-8c76-b8f9aa176b76")
 			(effects
 				(font
 					(size 1 1)
@@ -4289,7 +4757,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92bf9eac-369c-4546-8658-fb0dbdcdd04a")
+			(uuid "196b5547-749e-4f20-b15b-140ac67feccc")
 			(effects
 				(font
 					(size 1 1)
@@ -4302,7 +4770,46 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8be5e899-66c1-47e3-849f-c3a0a87bd567")
+			(uuid "9d485d15-efc7-480a-8b23-bdf29243cae9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MP-708-0002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57bb86fd-880e-45fd-b901-811bff22e099")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "228a6dec-39e5-4643-bcaa-f45e543a5dc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "3359812"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4455000-8933-4399-b0cd-628681b0ddef")
 			(effects
 				(font
 					(size 1 1)
@@ -4311,8 +4818,6 @@
 			)
 		)
 		(path "/8dce6989-5c91-4cb7-9dc1-e27bcf508d00")
-		(sheetname "Root")
-		(sheetfile "ghost-bot.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start 0 0)
@@ -4323,13 +4828,13 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "ca4d97d1-5f8b-4182-958a-1fa4732f9cca")
+			(uuid "2cb484ef-3c38-4c23-89c0-a2aa9dda06a0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a422cb8c-74b0-495b-ac5f-e275f05e8cd7")
+			(uuid "e7f9e684-b466-4b66-bef2-555135173aa0")
 			(effects
 				(font
 					(size 1 1)
@@ -4342,20 +4847,20 @@
 			(size 2.5 5)
 			(drill oval 2.5 5)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "0deddaec-d27b-4cba-9fa3-52f06338edf3")
+			(uuid "ec26af41-5065-4ce3-a5f6-f386b82ce9ca")
 		)
 		(pad "" np_thru_hole oval
 			(at 25 11.25)
 			(size 2.5 5)
 			(drill oval 2.5 5)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "97d1d7fb-765d-4751-9698-ecdfc6881cd4")
+			(uuid "ef077a30-c2db-48d0-a7c5-5aac65d065c2")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.CrtYd")
-			(uuid "fce4d39a-6ac0-49f1-905c-5989d4a63008")
+			(uuid "84529c2b-44e6-4da9-9bb8-633b1daf1bdf")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -4379,7 +4884,7 @@
 				)
 			)
 		)
-		(model "C:/CAD/sg90-micro-servo-9g-tower-pro-1.snapshot.3/SG90 - Micro Servo 9g - Tower Pro.STEP"
+		(model "C:/CAD/sg90-micro-servo-9g-tower-pro-1.snapshot.3/SG90 - Micro Servo 9g - Tower Pro with Ghost Wheels.step"
 			(offset
 				(xyz 4.5 -28.5 -21.75)
 			)
@@ -4452,6 +4957,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 10K"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95bf7a66-8067-4bab-a0a8-2555600433e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22efee04-c7f7-4761-bfea-35609dad697c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339060"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c727a298-abbc-468a-b99b-f18add7d53e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4680,7 +5224,7 @@
 				)
 			)
 		)
-		(property "Value" "85R"
+		(property "Value" "100R"
 			(at 5.08 2.37 -90)
 			(layer "F.Fab")
 			(uuid "bc0c1e1e-1440-4967-a61f-886613197d9c")
@@ -4724,6 +5268,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ac6da18-9b41-4250-aadd-e94fca13d157")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ce2cff6-1b1d-41b9-9aa5-33cd71cdfdfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0c9fef0-253b-4d91-9e99-afa17531d200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4999,6 +5582,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" " L-154A4SURKQBDZGW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2116ee9-66c9-43b4-b677-aa5a8abb301f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" " 2290374"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f17b3540-4952-403f-95a7-2cb953d1312d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef80b693-0d3d-45cd-bbcc-7e2e6b022ad3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9d269ffc-6f04-4690-bf6b-09623a13c6f2")
 		(sheetname "Root")
@@ -5259,6 +5881,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1825910-6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed02beeb-cd2c-422f-9d59-81de30051689")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "213b82e5-66d4-4a80-bed9-374d344d483e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "2456210"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f03a866-bf38-4ebf-ad11-9b54bb5ff94e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5619,6 +6280,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" " MCL053GD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b54daab8-49d2-445e-9b30-109592c5cd52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "792d7b3b-02fc-4a89-9038-3d2cadd5d0be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1581138"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a4ec83b-5947-4f86-81b8-42b0bc87d249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/79ed6963-e592-4c97-a2f6-5d6b0b62769b")
 		(sheetname "Root")
@@ -5845,6 +6545,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MF25 330R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20342624-de78-4697-81dd-5bb8b84fd5e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b43c66d8-c8ce-4137-a867-e72c2bdfac5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9341730"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc322505-3b36-42eb-bae5-2742cf7475e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6117,6 +6856,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MF25 100K"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c798e211-fd72-415e-bd16-4a49bad5d011")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5501a2a0-1b35-4cb4-b4d2-323b5706520e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9341129"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8960c39a-7ed4-4d87-b052-1faa753bf446")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6396,6 +7174,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "2478"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57c874d5-a60e-4800-970c-80c78f0cb4e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11e864eb-cfd8-4c29-badc-836ef7c6cbaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1650685"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44091a4e-a502-4a6d-936b-d901aa92ab2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/25dd00cd-dc40-4542-b49c-4a8170aa42c1")
 		(sheetname "Root")
 		(sheetfile "ghost-bot.kicad_sch")
@@ -6558,6 +7375,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5e089db-b873-4f98-b12a-37c92d06c962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ac438e6-34c2-4e56-8ca8-06cd36003a5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ea445cb-3f7c-4395-83ed-8ae5aea12c4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6777,7 +7633,7 @@
 			(at -1.822857 1.534999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "30d95166-5ef0-4ea8-bc54-7419ae49eceb")
+			(uuid "3ee0e9c6-ad46-4499-a0aa-32b4ed9eaf30")
 			(effects
 				(font
 					(size 1 1)
@@ -6789,7 +7645,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b6e02987-a79a-40ac-b3da-5a19706df839")
+			(uuid "c9de7d50-2cff-4fb2-aaee-1b9292409037")
 			(effects
 				(font
 					(size 1 1)
@@ -6802,7 +7658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14d70f41-3760-4d36-a92b-833f76ac9b4a")
+			(uuid "d30fa3bd-d899-4c74-a994-27102c4ce451")
 			(effects
 				(font
 					(size 1 1)
@@ -6815,7 +7671,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d650bcb8-6ee7-4001-a003-a5f91c4c409e")
+			(uuid "1942f22f-21c8-4f69-b4d0-cfaacbde7923")
 			(effects
 				(font
 					(size 1 1)
@@ -6828,7 +7684,46 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a9c72e8-45fa-417f-8653-b5d8779caefe")
+			(uuid "b1dbb2d9-f535-46aa-8062-a9af2b909c9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MP-708-0002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b8875a1-0d50-4c23-bc41-8945f2cf3706")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1889f6aa-cddd-45b0-9200-0830e7280f31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "3359812"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "183f8967-f6d5-4eb9-9f4f-025ba925853e")
 			(effects
 				(font
 					(size 1 1)
@@ -6837,8 +7732,6 @@
 			)
 		)
 		(path "/81c05c66-b538-4930-81fc-d2a2bc97adc3")
-		(sheetname "Root")
-		(sheetfile "ghost-bot.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start 0 0)
@@ -6849,13 +7742,13 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "5160c5b5-d423-4d26-95b1-4b76d85cdaf6")
+			(uuid "fdf09710-5963-43dd-8024-8ddb0dbe129e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "193899c5-db6e-4d2f-aee8-cdc95c3e7698")
+			(uuid "1d64879f-8510-4d2b-9c87-c36ca987da0e")
 			(effects
 				(font
 					(size 1 1)
@@ -6868,20 +7761,20 @@
 			(size 2.5 5)
 			(drill oval 2.5 5)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "66917a4d-ad0c-4ca9-8608-6d3ded3868a8")
+			(uuid "f4cd89b8-ebce-40d8-b267-e943c323d0a1")
 		)
 		(pad "" np_thru_hole oval
 			(at 25 11.25)
 			(size 2.5 5)
 			(drill oval 2.5 5)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "daf63f10-38cd-40d8-9c23-84915cc17a26")
+			(uuid "415d14b8-e006-436b-b5ed-59f8ca265d7b")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.CrtYd")
-			(uuid "d5ab02fb-b5dd-4c89-bbf8-d937722cdbb6")
+			(uuid "778c7785-00ee-42e2-aa66-761861256a41")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -6905,7 +7798,7 @@
 				)
 			)
 		)
-		(model "C:/CAD/sg90-micro-servo-9g-tower-pro-1.snapshot.3/SG90 - Micro Servo 9g - Tower Pro.STEP"
+		(model "C:/CAD/sg90-micro-servo-9g-tower-pro-1.snapshot.3/SG90 - Micro Servo 9g - Tower Pro with Ghost Wheels.step"
 			(offset
 				(xyz 4.5 6.5 33.75)
 			)
@@ -6979,6 +7872,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "2211S-04G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326f820b-42b3-4866-83f5-5b43a86ca26b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26daa307-724e-4af9-b757-9f5554949638")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1593413"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df985ea4-30b9-49c9-a38b-11f3eecba486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7268,6 +8200,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" " MCL053GD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9cfd214-4751-477a-bf42-2b892343b5a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f11d61de-57bf-4cd8-8b1c-5629c3378548")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1581138"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d781af85-7cc1-4312-b024-34098da5b6b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/8917ba54-3d6e-4407-86e5-424b3889bf53")
 		(sheetname "Root")
@@ -7450,7 +8421,7 @@
 				)
 			)
 		)
-		(property "Value" "85R"
+		(property "Value" "100R"
 			(at 5.08 2.37 -90)
 			(layer "F.Fab")
 			(uuid "755d1077-2d2b-4867-9ed3-4497b54b0260")
@@ -7494,6 +8465,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MCF 0.25W 100R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1ee25ac-7cef-40a3-aab6-234153e3a268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceaddf70-4eef-4c05-b40b-a436f284d3e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339043"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b63218a7-61ce-4cf6-a85d-48f9cc2a86ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7769,6 +8779,45 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "MCF 0.25W 10K"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "044052cc-c04d-4560-87e2-7802c95d262d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8676f237-4bbc-4064-8127-79120e8a9873")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9339060"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e06755a-5a14-49fa-bbc6-12fd5d2444f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c10374a4-846d-4f0e-baa7-16f3410aef07")
 		(sheetname "Root")
@@ -8038,6 +9087,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "2211S-03G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad69cac7-e0cb-4e47-bd6e-55708e1e7172")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a0998e8-f9fa-4853-8caf-c6c2ec01e2f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" " 1593412"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b8f37e2-450c-4a54-90dc-ece1722a2651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8313,6 +9401,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MF25 100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae7b1f53-ff40-4063-bd47-806ddfb9b8aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5ab4116-dda1-452d-9376-b4ccb50780e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "9341129"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd8403e8-ac02-4b39-ae92-15dee6c16109")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8593,6 +9720,48 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Number" "SFH203-FA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b8f31dc7-a6b4-46aa-b951-707afd20e2c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e06770b-6e47-49de-a071-a9da9d657777")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier Part Number" "1212743"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2079afd6-a217-425d-a459-247406f7d4fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/00c090d6-f939-4f53-9fa6-47174402387a")
 		(sheetname "Root")
 		(sheetfile "ghost-bot.kicad_sch")
@@ -8827,6 +9996,48 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Number" "SFH203-FA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fb77f707-0ef5-4ae2-a580-24228ae1bb52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "29d32cfb-7279-4331-a9bf-f7699ca9c2a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier Part Number" "1212743"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e168860-115d-4e62-8a49-28db9250a72e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/f9318ff3-8090-4bf7-aef4-5fde6df01f11")
 		(sheetname "Root")
 		(sheetfile "ghost-bot.kicad_sch")
@@ -9057,6 +10268,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "OFL-5102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12cfd5dc-5988-4bc7-9049-43b6e0ce3506")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "435024b6-537f-483a-b657-a80f7d480231")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier Part Number" "1716710"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "98f4d13c-af6a-444b-89fb-463cca3b0015")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9296,6 +10549,48 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Number" "OFL-5102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b4739957-a408-47a8-80b5-d3ec682cdb26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17443547-d2b8-4268-a3f0-159f51585565")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier Part Number" "1716710"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40de830f-537e-45f8-804d-8314324f4102")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cfd9f8fb-0a71-4293-b22e-bdbdd46345a4")
 		(sheetname "Root")
@@ -9531,6 +10826,48 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Number" "SFH203-FA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77b0f9d8-ee17-4191-bd7b-938d894e4216")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a4f04a12-fed6-4951-afd8-98b9d7c859c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier Part Number" "1212743"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "663e48c5-4991-4ade-8678-c9d671c8f080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/0dd738c0-e9b7-40d4-bb95-85eaedffe8ab")
 		(sheetname "Root")
 		(sheetfile "ghost-bot.kicad_sch")
@@ -9761,6 +11098,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "OFL-5102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "608c7af8-c006-4f4f-b3f4-8ca66b5a7c2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "820404d7-163f-493a-bb59-048e60482036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Supplier Part Number" "1716710"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "14359977-f2db-4344-aadd-38cd6ef6fcb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
