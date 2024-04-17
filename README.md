@@ -29,3 +29,8 @@ TODO add an instruction on how to use the BOM upload tool
 
 ## TODO
 * Ordered M2.5 hex spacers (2884589) and screws (1420388, box of 100), need to add to BOM. It would be nice to add them as mechanical parts to the schematic, just need to think about what the best way to do this is.
+* Setup a Github Action to generate all the fabrication outputs
+    * Gerber files
+    * NC drill
+    * Bill of materials
+    * Drawings
