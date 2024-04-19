@@ -37,4 +37,3 @@ This robot is ~~shamelessly plagarised~~ inspired by a line following robot I bu
     * NC drill
     * Bill of materials
     * Drawings
-* Add CAD models to repo
