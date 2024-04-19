@@ -911,7 +911,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/CAD/arduino-nano--1.snapshot.4/arduino nano.STEP"
+		(model "${KIPRJMOD}/3d_models/arduino nano.STEP"
 			(offset
 				(xyz 0 0 3)
 			)
@@ -1222,7 +1222,7 @@
 			(pintype "passive")
 			(uuid "45dfdb1c-118d-40f0-98e3-f0b78699fc5e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1536,7 +1536,7 @@
 			(pintype "passive")
 			(uuid "bf8201dc-8712-46ae-b2fa-e2cea1b86304")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3d_models/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2029,7 +2029,7 @@
 			(pintype "no_connect")
 			(uuid "c474ea66-7817-4221-8e88-97e607056ae5")
 		)
-		(model "C:/CAD/LIB_EG1271/EG1271/3D/EG1271.stp"
+		(model "${KIPRJMOD}/3d_models/EG1271.stp"
 			(offset
 				(xyz 1.55 -1.5 3.5)
 			)
@@ -2340,7 +2340,7 @@
 			(pintype "passive")
 			(uuid "16fa22c9-34f4-4705-954c-4ebcd175449c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2792,7 +2792,7 @@
 			(pintype "passive")
 			(uuid "d0b63ff9-15e4-43a8-a6a0-1d676bde2be6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief.wrl"
+		(model "${KIPRJMOD}/3d_models/SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3103,7 +3103,7 @@
 			(pintype "passive")
 			(uuid "4897aec7-eb8a-4a5e-b96e-8eba719b2bbc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3371,7 +3371,7 @@
 			(pintype "passive")
 			(uuid "a661eec2-52b3-4e09-abbf-668a7d57ace8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3682,7 +3682,7 @@
 			(pintype "passive")
 			(uuid "b04b187f-ce04-4cb3-898c-525a300f8ad0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3993,7 +3993,7 @@
 			(pintype "passive")
 			(uuid "ce4f14ca-0f50-4399-a94f-3b8e736987a2")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4388,7 +4388,7 @@
 			(pintype "passive")
 			(uuid "2790ca93-a2a9-4aa5-8df1-e945680cbc37")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
+		(model "${KIPRJMOD}/3d_models/SW_PUSH_6mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4699,7 +4699,7 @@
 			(pintype "passive")
 			(uuid "41d1ca34-75ee-4749-870b-ee13c60c12e1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4884,7 +4884,7 @@
 				)
 			)
 		)
-		(model "C:/CAD/sg90-micro-servo-9g-tower-pro-1.snapshot.3/SG90 - Micro Servo 9g - Tower Pro with Ghost Wheels.step"
+		(model "${KIPRJMOD}/3d_models/SG90 - Micro Servo 9g - Tower Pro with Ghost Wheels.step"
 			(offset
 				(xyz 4.5 -28.5 -21.75)
 			)
@@ -5195,7 +5195,7 @@
 			(pintype "passive")
 			(uuid "5a8909f2-bb2f-452b-ae04-ef49a0b5b568")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5506,7 +5506,7 @@
 			(pintype "passive")
 			(uuid "65d8cea2-34c5-4e27-882e-eeceb1b6938e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5808,7 +5808,7 @@
 			(pintype "passive")
 			(uuid "8e217109-ebe8-495b-8a65-21063c2df26b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB_Staggered_Pins.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm-4_RGB_Staggered_Pins.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6203,7 +6203,7 @@
 			(pintype "passive")
 			(uuid "2cd3ea76-1385-4347-9956-63ab6eb208a5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
+		(model "${KIPRJMOD}/3d_models/SW_PUSH_6mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6472,7 +6472,7 @@
 			(pintype "passive")
 			(uuid "0e7dc328-10a8-4653-a5ad-60a5f0a1d5b5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6783,7 +6783,7 @@
 			(pintype "passive")
 			(uuid "70ad6280-f6d2-40f1-b6eb-e2d0439a76fd")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7094,7 +7094,7 @@
 			(pintype "passive")
 			(uuid "c136e9ab-3829-4aa7-820b-e59093561a32")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7302,7 +7302,7 @@
 				"d4edf60a-675a-45d9-8a4b-d10af0728610"
 			)
 		)
-		(model "C:/CAD/2478CN/2478 with standoffs.step"
+		(model "${KIPRJMOD}/3d_models/2478 with standoffs.step"
 			(offset
 				(xyz 28 0.5 27.5)
 			)
@@ -7613,7 +7613,7 @@
 			(pintype "passive")
 			(uuid "50a21f7c-cb07-4667-8fbb-1046c674686d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7798,7 +7798,7 @@
 				)
 			)
 		)
-		(model "C:/CAD/sg90-micro-servo-9g-tower-pro-1.snapshot.3/SG90 - Micro Servo 9g - Tower Pro with Ghost Wheels.step"
+		(model "${KIPRJMOD}/3d_models/SG90 - Micro Servo 9g - Tower Pro with Ghost Wheels.step"
 			(offset
 				(xyz 4.5 6.5 33.75)
 			)
@@ -8124,7 +8124,7 @@
 			(pintype "passive")
 			(uuid "de42c72b-b87e-4c90-a0b1-d4c5972157f6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3d_models/PinHeader_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8392,7 +8392,7 @@
 			(pintype "passive")
 			(uuid "8225069a-da85-4273-98e6-770b5d25aff5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8703,7 +8703,7 @@
 			(pintype "passive")
 			(uuid "572c112d-953f-49c2-b556-b389739eeaaa")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9014,7 +9014,7 @@
 			(pintype "passive")
 			(uuid "71a60f98-72a9-402e-9be9-9fb4a0b9d8a6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9328,7 +9328,7 @@
 			(pintype "passive")
 			(uuid "89fbe432-dead-4b2a-a9ae-b0c273d830ff")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3d_models/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9639,7 +9639,7 @@
 			(pintype "passive")
 			(uuid "4629d752-2a10-4f47-98a2-2fb485f5b684")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d_models/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9915,7 +9915,7 @@
 			(pintype "passive")
 			(uuid "dd5340f8-00f6-4db2-ab88-c1773a1a7cf9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm_Clear.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10191,7 +10191,7 @@
 			(pintype "passive")
 			(uuid "09b8fb8f-7358-48d8-b188-10958b74dac6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm_Clear.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10468,7 +10468,7 @@
 			(pintype "passive")
 			(uuid "b5d907e2-a76b-4c9f-b993-383d03a9e04e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_IRBlack.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm_IRBlack.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10745,7 +10745,7 @@
 			(pintype "passive")
 			(uuid "207a58c8-4948-44c6-bc00-3acf0822b42f")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_IRBlack.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm_IRBlack.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11021,7 +11021,7 @@
 			(pintype "passive")
 			(uuid "e2dfd445-0e52-444c-8ce7-152a1973001a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm_Clear.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11298,7 +11298,7 @@
 			(pintype "passive")
 			(uuid "04389f71-db7e-424c-b5f7-47b608fe5271")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_IRBlack.wrl"
+		(model "${KIPRJMOD}/3d_models/LED_D5.0mm_IRBlack.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
