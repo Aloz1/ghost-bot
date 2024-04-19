@@ -485,7 +485,7 @@
       "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ghost-bot_v0.1.0.step",
       "svg": "",
       "vrml": ""
     },
