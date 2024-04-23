@@ -23,7 +23,7 @@ jobs:
     - name: Generate PCB pdf
       run: kicad-cli pcb export pdf -l "*" ./pcb/ghost-bot.kicad_pcb -o ./pcb/ghost-bot.pcb.pdf
     - name: Generate SCH pdf
-      run: kicad-cli sch export pdf ghost-bot.kicad_sch -o ghost-bot.sch.pdf
+      run: kicad-cli sch export pdf ./pcb/ghost-bot.kicad_sch -o ./pcb/ghost-bot.sch.pdf
     - name: Create release
       run: |
             gh release create "${{ env.AUTO_TAG_NAME }}"
