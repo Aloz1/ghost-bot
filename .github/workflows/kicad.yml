@@ -1,0 +1,31 @@
+name: Generate Files
+
+on:
+  push:
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  AUTO_TAG_NAME: ${{ github.ref_name }}_${{ github.sha }}
+  PROJ_NAME: ghost_bat
+
+jobs:
+  kicad_generation:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@main
+    - name: Install Linux Dependencies
+      run: |
+            sudo add-apt-repository ppa:kicad/kicad-8.0-releases
+            sudo apt update
+            sudo apt install kicad
+    - name: Generate PCB pdf
+      run: kicad-cli pcb export pdf -l "*" ./pcb/ghost-bot.kicad_pcb -o ./pcb/ghost-bot.pcb.pdf
+    - name: Generate SCH pdf
+      run: kicad-cli sch export pdf ghost-bot.kicad_sch -o ghost-bot.sch.pdf
+    - name: Create release
+      run: |
+            gh release create "${{ env.AUTO_TAG_NAME }}"
+            gh release upload "${{ env.AUTO_TAG_NAME }}" ./pcb/ghost-bot.pcb.pdf ./pcb/ghost-bot.sch.pdf
+
