@@ -25,6 +25,9 @@ jobs:
     - name: Generate SCH pdf
       run: kicad-cli sch export pdf ./pcb/ghost-bot.kicad_sch -o ./pcb/ghost-bot.sch.pdf
     - name: Create release
+      id: create_release
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
       run: |
             gh release create "${{ env.AUTO_TAG_NAME }}"
             gh release upload "${{ env.AUTO_TAG_NAME }}" ./pcb/ghost-bot.pcb.pdf ./pcb/ghost-bot.sch.pdf
