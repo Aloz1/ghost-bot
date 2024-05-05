@@ -1,9 +1,10 @@
 name: Generate Files
 
 on:
+  workflow_dispatch:
   push:
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 env:
   AUTO_TAG_NAME: ${{ github.ref_name }}_${{ github.sha }}
