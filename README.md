@@ -1,6 +1,9 @@
 # Ghost-Bot
 A simple line following robot that can be hacked together easily and raced for the ultimate nerd (that's a term of endearment around here) street cred. 
 
+![top](https://ChrisAlphabet.github.io/ghost-bot/top.png)
+![bottom](https://ChrisAlphabet.github.io/ghost-bot/bottom.png)
+
 ## Motivation
 I like building things and I like hanging out with the Ghost Bat crew. Adam has done an excellent job of organising DCS Friday's (regardless of my lack of attendance) and has inspired me to try and do a similar thing with some hands on robotics/electronics/software workshops.
 
