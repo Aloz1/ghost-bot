@@ -3,7 +3,9 @@ A simple line following robot that can be hacked together easily and raced for t
 
 ![top](https://ChrisAlphabet.github.io/ghost-bot/top.png)
 ![bottom](https://ChrisAlphabet.github.io/ghost-bot/bottom.png)
+
 https://github.com/ChrisAlphabet/ghost-bot/assets/16814545/d810597f-699b-4427-b444-a860e60cc908
+
 
 ## Motivation
 I like building things and I like hanging out with the Ghost Bat crew. Adam has done an excellent job of organising DCS Friday's (regardless of my lack of attendance) and has inspired me to try and do a similar thing with some hands on robotics/electronics/software workshops.
