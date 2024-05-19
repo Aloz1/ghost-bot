@@ -23,11 +23,13 @@ jobs:
       run: chmod +x ./scripts/generate_kicad_outputs.sh
     - name: Generate all kicad outputs
       run: ./scripts/generate_kicad_outputs.sh --all
+    - name: Zip up kicad outputs
+      run: zip -r kicad_outputs.zip ./output
     - name: Create release
       id: create_release
       env:
         GITHUB_TOKEN: ${{ github.token }}
       run: |
             gh release create "${{ env.AUTO_TAG_NAME }}"
-            gh release upload "${{ env.AUTO_TAG_NAME }}" ./output/**
+            gh release upload "${{ env.AUTO_TAG_NAME }}" ./kicad_outputs.zip
 
