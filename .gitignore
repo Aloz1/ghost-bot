@@ -25,5 +25,5 @@ fp-info-cache
 *.ses
 
 # Fab outputs
-pcb/output/*
+output/*
 
