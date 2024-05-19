@@ -1,4 +1,4 @@
-name: Generate Files
+name: Generate Kicad Outputs
 
 on:
   workflow_dispatch:
@@ -12,7 +12,6 @@ env:
 jobs:
   kicad_generation:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@main
     - name: Install Linux Dependencies
@@ -20,15 +19,17 @@ jobs:
             sudo add-apt-repository ppa:kicad/kicad-8.0-releases
             sudo apt update
             sudo apt install kicad
-    - name: Generate PCB pdf
-      run: kicad-cli pcb export pdf -l "*" ./pcb/ghost-bot.kicad_pcb -o ./pcb/ghost-bot.pcb.pdf
-    - name: Generate SCH pdf
-      run: kicad-cli sch export pdf ./pcb/ghost-bot.kicad_sch -o ./pcb/ghost-bot.sch.pdf
+    - name: Make output generation script executable
+      run: chmod +x ./scripts/generate_kicad_outputs.sh
+    - name: Generate all kicad outputs
+      run: ./scripts/generate_kicad_outputs.sh --all
+    - name: Zip up kicad outputs
+      run: zip -r kicad_outputs.zip ./output
     - name: Create release
       id: create_release
       env:
         GITHUB_TOKEN: ${{ github.token }}
       run: |
             gh release create "${{ env.AUTO_TAG_NAME }}"
-            gh release upload "${{ env.AUTO_TAG_NAME }}" ./pcb/ghost-bot.pcb.pdf ./pcb/ghost-bot.sch.pdf
+            gh release upload "${{ env.AUTO_TAG_NAME }}" ./kicad_outputs.zip
 
