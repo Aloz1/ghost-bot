@@ -20,6 +20,8 @@ jobs:
             sudo add-apt-repository ppa:kicad/kicad-8.0-releases
             sudo apt update
             sudo apt install kicad
+    - name: Make output generation script executable
+      run: chmod +x ./scripts/generate_kicad_outputs.sh
     - name: Generate all kicad outputs
       run: ./scripts/generate_kicad_outputs.sh
     - name: Create release
