@@ -12,17 +12,17 @@ case $i in
     -pp|--pcb-pdf) GENERATE_PCB_PDF="1";;
     -b|--bom) GENERATE_BOM="1";;
     -h|--help)
-        echo "Usage: generate_fabrication_outputs.sh [--help] [--all] [--drc] [--gerber] [--drill] [--step] [--sch-pdf] [--pcb-pdf] [--bom]"
+        echo "Usage: generate_kicad_outputs.sh [--help] [--all] [--drc] [--gerber] [--drill] [--step] [--sch-pdf] [--pcb-pdf] [--bom]"
         echo ""
         echo "Options:"
         echo "  -a|--all        generate all outputs"
-        echo "  -d|--drc        generate DRC output" 
-        echo "  -g|--gerber     generate gerber outputs" 
-        echo "  -dr|--drill     generate drill outputs"
-        echo "  -s|--step       generate STEP file output"
+        echo "  -d|--drc        generate DRC reports" 
+        echo "  -g|--gerber     generate gerber files" 
+        echo "  -dr|--drill     generate drill files"
+        echo "  -s|--step       generate STEP file"
         echo "  -sp|--sch-pdf   generate schematic PDF"
         echo "  -pp|--pcb-pdf   generate PCB PDF"
-        echo "  -b|--bom        generate bill of materials"
+        echo "  -b|--bom        generate bill of materials csv"
         echo "  -h,--help       print this help"
         exit;;
 esac
