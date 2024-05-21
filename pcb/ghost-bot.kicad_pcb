@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Ghost Bot PCB")
-		(date "2024-04-12")
-		(rev "0.1.0")
+		(date "2024-05-21")
+		(rev "1.0.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
