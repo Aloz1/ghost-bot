@@ -10560,7 +10560,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "68d1b8b5-c3de-4079-b8da-9a5ffe0d3e04")
-		(at 131.000003 132.5 90)
+		(at 131.000003 131 90)
 		(property "Reference" "G***"
 			(at 0 0 270)
 			(layer "B.SilkS")
@@ -12164,7 +12164,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "fd186cea-1da6-451a-8a89-5aa1cf75e6d3")
-		(at 131.000003 98 90)
+		(at 130.500003 98.5 90)
 		(property "Reference" "G***"
 			(at 0 0 270)
 			(layer "B.SilkS")
