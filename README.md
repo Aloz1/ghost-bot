@@ -38,8 +38,3 @@ This robot is ~~shamelessly plagarised~~ inspired by a line following robot I bu
 
 ## TODO
 * Ordered M2.5 hex spacers (2884589) and screws (1420388, box of 100), need to add to BOM. It would be nice to add them as mechanical parts to the schematic, just need to think about what the best way to do this is.
-* Setup a Github Action to generate all the fabrication outputs
-    * Gerber files
-    * NC drill
-    * Bill of materials
-    * Drawings
