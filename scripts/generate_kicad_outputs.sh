@@ -5,6 +5,7 @@ do
 case $i in
     -a|--all) GENERATE_ALL="1";;
     -d|--drc) GENERATE_DRC="1";;
+    -e|--erc) GENERATE_ERC="1";;
     -g|--gerber) GENERATE_GERBERS="1";;
     -dr|--drill) GENERATE_DRILL="1";;
     -s|--step) GENERATE_STEP="1";;
@@ -17,6 +18,7 @@ case $i in
         echo "Options:"
         echo "  -a|--all        generate all outputs"
         echo "  -d|--drc        generate DRC reports" 
+        echo "  -e|--erc        generate ERC reports"
         echo "  -g|--gerber     generate gerber files" 
         echo "  -dr|--drill     generate drill files"
         echo "  -s|--step       generate STEP file"
@@ -40,6 +42,7 @@ main()
     OUTPUT_ROOT_DIR=$ROOT_DIR/output
     GERBER_DIR=$OUTPUT_ROOT_DIR/gerbers
     DRC_DIR=$OUTPUT_ROOT_DIR/drc
+    ERC_DIR=$OUTPUT_ROOT_DIR/erc
     DRILL_DIR=$OUTPUT_ROOT_DIR/drill
     STEP_DIR=$OUTPUT_ROOT_DIR/step
     PDF_DIR=$OUTPUT_ROOT_DIR/pdf
@@ -51,6 +54,13 @@ main()
         if [ ! -d "$DRC_DIR" ]; then mkdir -p $DRC_DIR; fi
         kicad-cli pcb drc --output="$DRC_DIR"/ghost-bot-drc.json --format=json --all-track-errors --schematic-parity --units=mm --severity-all --exit-code-violations "$SOURCE_DIR"/ghost-bot.kicad_pcb
         kicad-cli pcb drc --output="$DRC_DIR"/ghost-bot-drc.rpt --format=report --all-track-errors --schematic-parity --units=mm --severity-all --exit-code-violations "$SOURCE_DIR"/ghost-bot.kicad_pcb
+    fi
+
+    if [ "$GENERATE_ALL" = "1" ] || [ "$GENERATE_ERC" = "1" ]; then
+        echo "Generating DRC outputs";
+        if [ ! -d "$ERC_DIR" ]; then mkdir -p $ERC_DIR; fi
+        kicad-cli sch erc --output="$ERC_DIR"/ghost-bot-erc.json --format=json --units=mm --severity-all --exit-code-violations "$SOURCE_DIR"/ghost-bot.kicad_sch
+        kicad-cli sch erc --output="$ERC_DIR"/ghost-bot-erc.rpt --format=report --units=mm --severity-all --exit-code-violations "$SOURCE_DIR"/ghost-bot.kicad_sch
     fi
 
     # generate gerber files for jlc-pcb, see # https://jlcpcb.com/help/article/362-how-to-generate-gerber-and-drill-files-in-kicad-7 for options
