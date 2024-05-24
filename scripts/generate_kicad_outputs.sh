@@ -102,7 +102,7 @@ main()
     if [ "$GENERATE_ALL" = "1" ] || [ "$GENERATE_BOM" = "1" ]; then 
         echo "Generating BOM outputs";
         if [ ! -d "$BOM_DIR" ]; then mkdir -p $BOM_DIR; fi
-        kicad-cli sch export bom --output="$BOM_DIR"/ghost-bot-bom.csv --format-preset=CSV --field-delimiter="," "$SOURCE_DIR"/ghost-bot.kicad_sch
+        kicad-cli sch export bom --output="$BOM_DIR"/ghost-bot-bom.csv --preset="Grouped By Value" --format-preset=CSV --fields="Reference,Value,\${QUANTITY},\${DNP},Supplier Part Number,Manufacturer Part Number,Supplier " --field-delimiter="," "$SOURCE_DIR"/ghost-bot.kicad_sch
     fi
 }
 main
