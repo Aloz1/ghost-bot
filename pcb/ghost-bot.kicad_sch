@@ -2676,6 +2676,75 @@
 				)
 			)
 		)
+		(symbol "ghost-bot-symbols:ARDUINO NANO SOCKET ROW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ARDUINO NANO SOCKET ROW_1_1"
+				(rectangle
+					(start 0 0)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ROW\n"
+					(at 3.81 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ghost-bot-symbols:Battery Holder"
 			(pin_numbers hide)
 			(pin_names
@@ -3928,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 68.58 135.89)
+			(xy 64.77 137.16) (xy 64.77 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4068,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 144.78) (xy 76.2 144.78)
+			(xy 110.49 142.24) (xy 72.39 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4078,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 68.58 153.67)
+			(xy 64.77 147.32) (xy 64.77 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4188,7 +4257,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 55.88 144.78)
+			(xy 49.53 142.24) (xy 52.07 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4258,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 113.03 153.67)
+			(xy 113.03 86.36) (xy 113.03 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 153.67) (xy 113.03 153.67)
+			(xy 72.39 151.13) (xy 113.03 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4368,7 +4437,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 135.89) (xy 107.95 135.89)
+			(xy 72.39 133.35) (xy 107.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4398,7 +4467,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 149.86) (xy 68.58 149.86)
+			(xy 62.23 147.32) (xy 64.77 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4438,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 147.32) (xy 53.34 144.78)
+			(xy 49.53 144.78) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4888,7 +4957,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 139.7) (xy 68.58 139.7)
+			(xy 62.23 137.16) (xy 64.77 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4918,7 +4987,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 96.52) (xy 107.95 135.89)
+			(xy 107.95 96.52) (xy 107.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 93.98) (xy 110.49 144.78)
+			(xy 110.49 93.98) (xy 110.49 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5378,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 144.78) (xy 68.58 144.78)
+			(xy 62.23 142.24) (xy 64.77 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5398,7 +5467,7 @@
 	)
 	(text_box "Note that R7 and R8 should be 85R"
 		(exclude_from_sim no)
-		(at 74.93 156.21 0)
+		(at 71.12 153.67 0)
 		(size 20.32 5.08)
 		(stroke
 			(width 0)
@@ -5424,6 +5493,16 @@
 			)
 		)
 		(uuid "0947ea23-1578-44db-b685-060eeaf34c58")
+	)
+	(text "Headers for Arduino Nano"
+		(exclude_from_sim no)
+		(at 152.146 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c31ac267-dc3e-47b2-8010-d8c576a7f0a0")
 	)
 	(label "SPI_CLK"
 		(at 63.5 181.61 0)
@@ -5503,7 +5582,7 @@
 		(uuid "403345f0-f323-4265-b245-5cfca2a84459")
 	)
 	(label "RGB_G"
-		(at 77.47 144.78 0)
+		(at 73.66 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5591,7 +5670,7 @@
 		(uuid "96a4287d-0902-43f4-85f1-c9320229a269")
 	)
 	(label "RGB_B"
-		(at 77.47 153.67 0)
+		(at 73.66 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5602,7 +5681,7 @@
 		(uuid "9917b88b-778f-4cc0-95f7-a3abf9e32333")
 	)
 	(label "RGB_R"
-		(at 77.47 135.89 0)
+		(at 73.66 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5857,6 +5936,96 @@
 			(project "ghost-bot"
 				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ghost-bot-symbols:ARDUINO NANO SOCKET ROW")
+		(at 152.4 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "014defef-a849-4032-b99e-6a55fc2d2491")
+		(property "Reference" "U7"
+			(at 152.146 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 161.29 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "M20-7821546"
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3225931"
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ghost-bot"
+				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6488,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 72.39 153.67 90)
+		(at 68.58 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6327,7 +6496,7 @@
 		(dnp no)
 		(uuid "218a3e1c-cd8e-4aa7-b3cb-aa5963b0eced")
 		(property "Reference" "R8"
-			(at 72.39 148.59 90)
+			(at 68.58 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6504,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 72.39 151.13 90)
+			(at 68.58 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6512,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.644 152.654 90)
+			(at 68.834 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 153.67 0)
+			(at 68.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6530,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 72.39 153.67 0)
+			(at 68.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6539,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCF 0.25W 100R"
-			(at 72.39 153.67 90)
+			(at 68.58 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6548,7 @@
 			)
 		)
 		(property "Supplier " "Element 14"
-			(at 72.39 153.67 90)
+			(at 68.58 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6557,7 @@
 			)
 		)
 		(property "Supplier Part Number" "9339043"
-			(at 72.39 153.67 90)
+			(at 68.58 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,6 +7871,96 @@
 		)
 	)
 	(symbol
+		(lib_id "ghost-bot-symbols:ARDUINO NANO SOCKET ROW")
+		(at 143.51 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "548b167d-ef4f-4340-8c0c-81e94cdb7280")
+		(property "Reference" "U6"
+			(at 143.256 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "M20-7821546"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3225931"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ghost-bot"
+				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 58.42 176.53 0)
 		(unit 1)
@@ -7755,6 +8014,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "2211S-05G"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1593414"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "7ab3e71a-41ac-4a0b-81e5-9938c3f3135b")
 		)
@@ -7781,7 +8067,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 72.39 135.89 90)
+		(at 68.58 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7789,7 +8075,7 @@
 		(dnp no)
 		(uuid "60c2c02b-8d97-472c-aecd-e97f098a2f28")
 		(property "Reference" "R6"
-			(at 72.39 130.81 90)
+			(at 68.58 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +8083,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 72.39 133.35 90)
+			(at 68.58 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +8091,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.644 134.874 90)
+			(at 68.834 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,7 +8100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 135.89 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,7 +8109,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 72.39 135.89 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +8118,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCF 0.25W 150R"
-			(at 72.39 135.89 90)
+			(at 68.58 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +8127,7 @@
 			)
 		)
 		(property "Supplier " "Element 14"
-			(at 72.39 135.89 90)
+			(at 68.58 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,7 +8136,7 @@
 			)
 		)
 		(property "Supplier Part Number" "9339175"
-			(at 72.39 135.89 90)
+			(at 68.58 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +8488,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 72.39 144.78 90)
+		(at 68.58 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8210,7 +8496,7 @@
 		(dnp no)
 		(uuid "7239e183-8eca-4bcf-ab18-a8c08a1cc59e")
 		(property "Reference" "R7"
-			(at 72.39 139.7 90)
+			(at 68.58 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8504,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 72.39 142.24 90)
+			(at 68.58 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +8512,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.644 143.764 90)
+			(at 68.834 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8235,7 +8521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 144.78 0)
+			(at 68.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,7 +8530,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 72.39 144.78 0)
+			(at 68.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +8539,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCF 0.25W 100R"
-			(at 72.39 144.78 90)
+			(at 68.58 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +8548,7 @@
 			)
 		)
 		(property "Supplier " "Element 14"
-			(at 72.39 144.78 90)
+			(at 68.58 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8557,7 @@
 			)
 		)
 		(property "Supplier Part Number" "9339043"
-			(at 72.39 144.78 90)
+			(at 68.58 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +9927,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_BKGR")
-		(at 60.96 144.78 0)
+		(at 57.15 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9650,7 +9936,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d269ffc-6f04-4690-bf6b-09623a13c6f2")
 		(property "Reference" "D1"
-			(at 60.96 130.81 0)
+			(at 57.15 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +9944,7 @@
 			)
 		)
 		(property "Value" "LED_BKGR"
-			(at 60.96 133.35 0)
+			(at 57.15 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9952,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins"
-			(at 60.96 146.05 0)
+			(at 57.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 146.05 0)
+			(at 57.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +9970,7 @@
 			)
 		)
 		(property "Description" "RGB LED, blue/cathode/green/red"
-			(at 60.96 144.78 0)
+			(at 57.15 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9979,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" " L-154A4SURKQBDZGW"
-			(at 60.96 144.78 0)
+			(at 57.15 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9988,7 @@
 			)
 		)
 		(property "Supplier Part Number" " 2290374"
-			(at 60.96 144.78 0)
+			(at 57.15 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9997,7 @@
 			)
 		)
 		(property "Supplier " "Element 14"
-			(at 60.96 144.78 0)
+			(at 57.15 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 147.32 0)
+		(at 49.53 144.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10309,7 +10595,7 @@
 		(dnp no)
 		(uuid "b8412689-0164-408a-9741-ae97ea522f14")
 		(property "Reference" "#PWR08"
-			(at 53.34 153.67 0)
+			(at 49.53 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10604,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 151.13 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,7 +10612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 147.32 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 147.32 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +10630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 147.32 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
