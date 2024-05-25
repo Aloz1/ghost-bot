@@ -2880,6 +2880,99 @@
 				)
 			)
 		)
+		(symbol "ghost-bot-symbols:Screws"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screws_1_1"
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.4036 -3.3782)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7178 -2.3622) (xy 3.5814 -3.2004)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.0734 -2.8702)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "SCREWS"
+					(at 3.302 -1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ghost-bot-symbols:Servo Mechanical"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2941,6 +3034,88 @@
 				)
 				(text "SERVO"
 					(at 3.81 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ghost-bot-symbols:Standoff"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Standoff_1_1"
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 5.08 -2.54) (xy 5.715 -3.81) (xy 5.08 -5.08) (xy 3.81 -5.08) (xy 3.175 -3.81)
+						(xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.445 -3.81)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "STANDOFF"
+					(at 4.318 -1.016 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5242,7 +5417,7 @@
 	)
 	(text "Mechanical parts"
 		(exclude_from_sim no)
-		(at 150.876 175.768 0)
+		(at 153.416 164.338 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6237,43 +6412,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ghost-bot-symbols:Battery Holder")
-		(at 148.59 181.61 0)
+		(lib_id "ghost-bot-symbols:Standoff")
+		(at 166.37 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "25dd00cd-dc40-4542-b49c-4a8170aa42c1")
-		(property "Reference" "BT1"
-			(at 144.78 180.3399 0)
+		(uuid "25db9a94-b12a-42d6-8f03-d9097fc2e65f")
+		(property "Reference" "U5"
+			(at 166.116 175.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Battery Holder"
-			(at 144.78 182.8799 0)
+		(property "Value" "~"
+			(at 176.53 180.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ghost-bot-footprints:Keystone 2478 Battery Holder"
-			(at 148.59 180.086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 180.086 90)
+		(property "Footprint" ""
+			(at 166.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,8 +6447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multiple-cell battery"
-			(at 148.59 181.61 0)
+		(property "Datasheet" ""
+			(at 166.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,8 +6456,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "2478"
-			(at 148.59 181.61 0)
+		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 30 mm"
+			(at 166.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "970300151"
+			(at 166.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,7 +6475,97 @@
 			)
 		)
 		(property "Supplier " "Element 14"
-			(at 148.59 181.61 0)
+			(at 166.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "2884589"
+			(at 166.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ghost-bot"
+				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ghost-bot-symbols:Battery Holder")
+		(at 151.13 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25dd00cd-dc40-4542-b49c-4a8170aa42c1")
+		(property "Reference" "BT1"
+			(at 147.32 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Battery Holder"
+			(at 147.32 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ghost-bot-footprints:Keystone 2478 Battery Holder"
+			(at 151.13 168.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 168.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 151.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2478"
+			(at 151.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 151.13 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +6574,7 @@
 			)
 		)
 		(property "Supplier Part Number" "1650685"
-			(at 148.59 181.61 0)
+			(at 151.13 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8553,7 @@
 	)
 	(symbol
 		(lib_id "ghost-bot-symbols:Servo Mechanical")
-		(at 163.83 180.34 0)
+		(at 156.21 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8296,7 +8561,7 @@
 		(dnp no)
 		(uuid "81c05c66-b538-4930-81fc-d2a2bc97adc3")
 		(property "Reference" "U2"
-			(at 163.576 179.324 0)
+			(at 155.956 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8570,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 172.72 183.515 0)
+			(at 165.1 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8579,7 @@
 			)
 		)
 		(property "Footprint" "ghost-bot-footprints:SG90 Mount Right"
-			(at 163.83 180.34 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 180.34 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8597,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 180.34 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8606,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MP-708-0002"
-			(at 163.83 180.34 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8615,7 @@
 			)
 		)
 		(property "Supplier " "Element 14"
-			(at 163.83 180.34 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8624,7 @@
 			)
 		)
 		(property "Supplier Part Number" "3359812"
-			(at 163.83 180.34 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +9028,7 @@
 	)
 	(symbol
 		(lib_id "ghost-bot-symbols:Servo Mechanical")
-		(at 153.67 180.34 0)
+		(at 156.21 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8771,7 +9036,7 @@
 		(dnp no)
 		(uuid "8dce6989-5c91-4cb7-9dc1-e27bcf508d00")
 		(property "Reference" "U1"
-			(at 153.416 179.324 0)
+			(at 155.956 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +9045,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 162.56 183.515 0)
+			(at 165.1 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,7 +9054,7 @@
 			)
 		)
 		(property "Footprint" "ghost-bot-footprints:SG90 Mount Left"
-			(at 153.67 180.34 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +9063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 180.34 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +9072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 180.34 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +9081,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MP-708-0002"
-			(at 153.67 180.34 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +9090,7 @@
 			)
 		)
 		(property "Supplier " "Element 14"
-			(at 153.67 180.34 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +9099,7 @@
 			)
 		)
 		(property "Supplier Part Number" "3359812"
-			(at 153.67 180.34 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,6 +10460,96 @@
 		)
 	)
 	(symbol
+		(lib_id "ghost-bot-symbols:Standoff")
+		(at 166.37 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca681edf-30c6-4dbe-853a-9625abb84ab0")
+		(property "Reference" "U4"
+			(at 166.116 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 176.53 172.7172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 30 mm"
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "970300151"
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "2884589"
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ghost-bot"
+				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 114.3 0)
 		(unit 1)
@@ -10734,6 +11089,96 @@
 			(project "ghost-bot"
 				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ghost-bot-symbols:Screws")
+		(at 166.37 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e62a8b54-8469-48b1-b1f2-a0da60d75e79")
+		(property "Reference" "U3"
+			(at 165.862 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 175.26 187.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine Screw, M2.5, 6 mm, Steel, Bright Zinc, Pan Head Pozidriv"
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MP006516"
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier " "Element 14"
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "3666708"
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ghost-bot"
+				(path "/9de140fd-a546-4656-a97e-49be7c9777a1"
+					(reference "U3")
 					(unit 1)
 				)
 			)
