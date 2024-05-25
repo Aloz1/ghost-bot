@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Keystone 2478 Battery Holder"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -79,6 +79,28 @@
 		(uuid "30ea9dab-6b20-49fb-8c28-231cbe9e2031")
 	)
 	(fp_circle
+		(center 9.425 -0.16)
+		(end 12.125 -0.16)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "57d9a9d7-3461-4c5e-99e5-8eccb6d3dd0e")
+	)
+	(fp_circle
+		(center 47.758 0)
+		(end 50.458 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "a6cfa0a3-b432-45ea-b20d-8cb56fb00d38")
+	)
+	(fp_circle
 		(center 57.4 0)
 		(end 60.1 0)
 		(stroke
@@ -99,6 +121,28 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "5fc90509-84c4-437f-898b-a69b94ff61df")
+	)
+	(fp_circle
+		(center 9.425 -0.16)
+		(end 12.375 -0.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d8682391-60ad-4e2f-8f4c-e841ceb812f5")
+	)
+	(fp_circle
+		(center 47.758 0)
+		(end 50.708 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7df1f7d1-fa69-457b-bfd9-11d974412199")
 	)
 	(fp_circle
 		(center 57.4 0)
@@ -131,10 +175,24 @@
 		(uuid "3975f007-f8ee-4ea4-8d99-2454c48b4fab")
 	)
 	(pad "" np_thru_hole circle
+		(at 9.425 -0.16)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "bae8d4ba-b05d-4f92-bd8f-676b6c506fb2")
+	)
+	(pad "" np_thru_hole circle
+		(at 47.758 0)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fc6dce6f-1fc4-412f-b834-3f5bf9c15aa6")
+	)
+	(pad "" np_thru_hole circle
 		(at 57.4 0)
 		(size 2.7 2.7)
 		(drill 2.7)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "15eadb57-fd4c-4441-b180-4fba4a15cead")
 	)
 	(group ""
@@ -144,6 +202,18 @@
 			"7701ae87-bd23-49c5-9a96-543a922b2c13" "aaccc769-dc58-46e7-89cf-a36cef694a39"
 			"cbf6a846-1ca5-49dd-b210-0e4b3198ef29" "dc6681ba-f5aa-4727-ac92-262ea95225c0"
 			"e2a97d48-9f9c-42b7-878d-37a39d016310" "fa4c8ba2-74b0-479f-8109-bd9a5f5bd310"
+		)
+	)
+	(group ""
+		(uuid "49895bc1-d381-431f-a4eb-20c8f15f3556")
+		(members "57d9a9d7-3461-4c5e-99e5-8eccb6d3dd0e" "bae8d4ba-b05d-4f92-bd8f-676b6c506fb2"
+			"d8682391-60ad-4e2f-8f4c-e841ceb812f5"
+		)
+	)
+	(group ""
+		(uuid "8dbd210d-e3c6-4619-8293-c3a425ddbab3")
+		(members "7df1f7d1-fa69-457b-bfd9-11d974412199" "a6cfa0a3-b432-45ea-b20d-8cb56fb00d38"
+			"fc6dce6f-1fc4-412f-b834-3f5bf9c15aa6"
 		)
 	)
 	(group ""
