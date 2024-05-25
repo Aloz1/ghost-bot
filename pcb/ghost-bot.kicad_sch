@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ghost Bot")
-		(date "2024-05-21")
+		(date "2024-05-25")
 		(rev "1.0.0")
 	)
 	(lib_symbols
@@ -4447,6 +4447,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8cb219-b6f5-4b95-a7c5-59b6a45926c7")
+	)
+	(wire
+		(pts
 			(xy 259.08 115.57) (xy 264.16 115.57)
 		)
 		(stroke
@@ -4627,16 +4637,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 110.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "754966db-8084-43f8-9270-27f757cbdc82")
-	)
-	(wire
-		(pts
 			(xy 223.52 87.63) (xy 220.98 87.63)
 		)
 		(stroke
@@ -4727,6 +4727,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a815a5-fc9f-438a-acc7-f908bd7dff26")
+	)
+	(wire
+		(pts
 			(xy 62.23 38.1) (xy 62.23 40.64)
 		)
 		(stroke
@@ -4734,6 +4744,16 @@
 			(type default)
 		)
 		(uuid "8133fa52-7f1d-4468-a8f8-8334fb3609e8")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 107.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a92bbd-885f-4f40-9be5-33d19c9d1241")
 	)
 	(wire
 		(pts
@@ -4987,26 +5007,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 96.52) (xy 107.95 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a347c1-c930-46d4-8475-3a5adbcac6c3")
-	)
-	(wire
-		(pts
-			(xy 139.7 96.52) (xy 107.95 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ef8a67-665c-45d4-a230-5dae96feb042")
-	)
-	(wire
-		(pts
 			(xy 123.19 30.48) (xy 59.69 30.48)
 		)
 		(stroke
@@ -5117,6 +5117,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 142.24) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd36db87-d6b2-47d7-b02a-c4bf3c65b5c8")
+	)
+	(wire
+		(pts
 			(xy 176.53 88.9) (xy 165.1 88.9)
 		)
 		(stroke
@@ -5174,16 +5184,6 @@
 			(type default)
 		)
 		(uuid "d7e38819-72de-4550-aec0-67602f69efc2")
-	)
-	(wire
-		(pts
-			(xy 110.49 93.98) (xy 110.49 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fc3ff6-211e-4581-8494-3fdd167de6be")
 	)
 	(wire
 		(pts
@@ -5947,7 +5947,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "014defef-a849-4032-b99e-6a55fc2d2491")
 		(property "Reference" "U7"
@@ -6586,7 +6586,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "25db9a94-b12a-42d6-8f03-d9097fc2e65f")
 		(property "Reference" "U5"
@@ -7876,7 +7876,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "548b167d-ef4f-4340-8c0c-81e94cdb7280")
 		(property "Reference" "U6"
@@ -10751,7 +10751,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ca681edf-30c6-4dbe-853a-9625abb84ab0")
 		(property "Reference" "U4"
@@ -11386,7 +11386,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "e62a8b54-8469-48b1-b1f2-a0da60d75e79")
 		(property "Reference" "U3"
